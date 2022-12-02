@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.13",
     "@chakra-ui/react": "^2.4.1",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -17,7 +18,7 @@
     "@types/react-redux": "^7.1.24",
     "@types/react-router-dom": "^5.3.1",
     "axios": "^1.2.0",
-    "framer-motion": "^7.6.12",
+    "framer-motion": "^7.6.15",
     "husky": "^8.0.2",
     "lint-staged": "^13.0.4",
     "lodash": "^4.17.21",
