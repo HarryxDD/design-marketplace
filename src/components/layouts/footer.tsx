@@ -61,12 +61,13 @@ const ListHeader = ({ children }: { children: ReactNode }) => {
 export const Footer = () => {
   return (
     <Box
+      mt={"50px"}
       bg={useColorModeValue("gray.50", "gray.900")}
       color={useColorModeValue("gray.700", "gray.200")}
     >
-      <Container as={Stack} maxW={"7xl"} py={10}>
+      <Container as={Stack} maxW={"8xl"} py={10}>
         <SimpleGrid
-          templateColumns={{ sm: "1fr 1fr", md: "2fr 1fr 1fr 1fr 1fr" }}
+          templateColumns={{ sm: "1fr 1fr", md: "2fr 1fr 0.8fr 1fr 1fr" }}
           spacing={8}
         >
           <Stack spacing={5}>
@@ -83,28 +84,28 @@ export const Footer = () => {
             <Link
               _hover={{ cursor: "pointer", color: "#4f3cc9" }}
               href={"#"}
-              fontSize={"md"}
+              fontSize={"16px"}
             >
               Explore design work
             </Link>
             <Link
               _hover={{ cursor: "pointer", color: "#4f3cc9" }}
               href={"#"}
-              fontSize={"md"}
+              fontSize={"16px"}
             >
               Design blog
             </Link>
             <Link
               _hover={{ cursor: "pointer", color: "#4f3cc9" }}
               href={"#"}
-              fontSize={"md"}
+              fontSize={"16px"}
             >
               Contact
             </Link>
             <Link
               _hover={{ cursor: "pointer", color: "#4f3cc9" }}
               href={"#"}
-              fontSize={"md"}
+              fontSize={"16px"}
             >
               Pricing
             </Link>
@@ -114,28 +115,28 @@ export const Footer = () => {
             <Link
               _hover={{ cursor: "pointer", color: "#4f3cc9" }}
               href={"#"}
-              fontSize={"md"}
+              fontSize={"16px"}
             >
               About
             </Link>
             <Link
               _hover={{ cursor: "pointer", color: "#4f3cc9" }}
               href={"#"}
-              fontSize={"md"}
+              fontSize={"16px"}
             >
               Blog
             </Link>
             <Link
               _hover={{ cursor: "pointer", color: "#4f3cc9" }}
               href={"#"}
-              fontSize={"md"}
+              fontSize={"16px"}
             >
               Contact
             </Link>
             <Link
               _hover={{ cursor: "pointer", color: "#4f3cc9" }}
               href={"#"}
-              fontSize={"md"}
+              fontSize={"16px"}
             >
               Pricing
             </Link>
@@ -145,28 +146,28 @@ export const Footer = () => {
             <Link
               _hover={{ cursor: "pointer", color: "#4f3cc9" }}
               href={"#"}
-              fontSize={"md"}
+              fontSize={"16px"}
             >
               Help Center
             </Link>
             <Link
               _hover={{ cursor: "pointer", color: "#4f3cc9" }}
               href={"#"}
-              fontSize={"md"}
+              fontSize={"16px"}
             >
               Terms of Service
             </Link>
             <Link
               _hover={{ cursor: "pointer", color: "#4f3cc9" }}
               href={"#"}
-              fontSize={"md"}
+              fontSize={"16px"}
             >
               Legal
             </Link>
             <Link
               _hover={{ cursor: "pointer", color: "#4f3cc9" }}
               href={"#"}
-              fontSize={"md"}
+              fontSize={"16px"}
             >
               Private Policy
             </Link>
