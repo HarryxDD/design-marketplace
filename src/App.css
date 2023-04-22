@@ -1,3 +1,13 @@
+
+body {
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+	min-height: 100vh;
+	background-color: var(--bg-1);
+}
+* {
+	font-family: 'Poppins', sans-serif !important;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +45,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.social-container .social-svg {
+  border-radius: 0% !important;
 }

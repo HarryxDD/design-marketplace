@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import { Box } from "@chakra-ui/react";
+import { Header } from "pages/explore/components/Header";
+import ExploreSection from "pages/explore/components/ExploreSection";
 
-const index = () => {
+const Explore = () => {
   return (
-    <div>explore</div>
-  )
-}
+    <Box>
+      <Header />
+      <ExploreSection />
+    </Box>
+  );
+};
 
-export default index
+export default Explore;
